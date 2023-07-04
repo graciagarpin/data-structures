@@ -12,6 +12,8 @@
 
 Quokka es un Plugin que nos permite depurar en tiempo real el código que estamos escribiendo. Está especialmente diseñado para Javascript.
 
+## Tipos de Estructuras de Datos
+
 ### Fila/Cola (Queue)
 
 * Caracterizada por ser una secuencia de elementos en la que la operación de inserción (enqueue) se realiza por un extremo y la operación de extracción (dequeue) por el otro.
