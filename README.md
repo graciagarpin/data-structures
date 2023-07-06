@@ -17,7 +17,8 @@ Quokka es un Plugin que nos permite depurar en tiempo real el código que estamo
 ### Fila/Cola (Queue)
 
 * Caracterizada por ser una secuencia de elementos en la que la operación de inserción (enqueue) se realiza por un extremo y la operación de extracción (dequeue) por el otro.
-* FIFO
+* El modo de acceso a sus elementos es de tipo FIFO (First-In, First-Out).
+* Una puntualización importante: en la mayoría de los casos, "fila" y "cola" se consideran sinónimos y se utilizan indistintamente para describir una estructura de datos FIFO. Sin embargo, en contextos específicos o en diferentes lenguajes de programación, es posible que haya diferencias sutiles en la terminología utilizada.
 
 [x] constructor
 [x] enqueue
@@ -29,12 +30,13 @@ Quokka es un Plugin que nos permite depurar en tiempo real el código que estamo
 
 ### Pila (Stack)
 
-* Lista ordenada o estructura de datos que permite almacenar y recuperar datos, el modo de acceso a sus elementos es de tipo LIFO.
+* Lista ordenada o estructura de datos que permite almacenar y recuperar datos.
+* El modo de acceso a sus elementos es de tipo LIFO (Last-In, First-Out).
 
-[ ] constructor
-[ ] enqueue
-[ ] dequeue
-[ ] getSize
-[ ] isEmpty
-[ ] peek
-[ ] print
+[x] constructor
+[x] push
+[x] pop
+[x] getSize
+[x] isEmpty
+[x] peek
+[x] print
